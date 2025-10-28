@@ -21,7 +21,7 @@
     import Navigation from './components/Navigation.vue';
     import AboutMe from './components/AboutMe.vue';
     import MyCertificates from './components/MyCertificates.vue';
-    import HtmlCss from './components/htmlCss.vue';
+    import HtmlCss from './components/HtmlCss.vue';
     import JavaScript from './components/JavaScript.vue';
     import Python from './components/Python.vue';
     import Others from './components/Others.vue';
