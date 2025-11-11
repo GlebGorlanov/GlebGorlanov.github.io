@@ -7,17 +7,17 @@
 
         <div class="applications flex items-center justify-center">
             <div class="gridWindow w-[95%] h-[95%] lg:w-[90%] xl:w-[85%]">
-                <div class="window w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%]" @click="closeMyApplications('download')">
-                    <img src="../assets/applications/calculator.png" class="w-[100%]">
+                <div class="window w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%]" @click="closeMyApplications('calculator')">
+                    <img src="../assets/applications/Screenshots Calculator/Calculator.png" class="w-[100%]">
                     <div class="flex items-center justify-center">
                         <p class="text-[3vw] sm:text-[2.8vw] md:text-[2.1vw] lg:text-[1.9vw] xl:text-[1.2vw] 2xl:text-[1vw]">Calculator</p>
                     </div>
                 </div>
 
-                <div class="window w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%]" @click="closeMyApplications('download')">
-                    <img src="../assets/applications/cross_zero.png" class="w-[100%]">
+                <div class="window w-[90%] sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%]" @click="closeMyApplications('cross_zero')">
+                    <img src="../assets/applications/Screenshots Cross_Zero/Cross_Zero.png" class="w-[100%]">
                     <div class="flex items-center justify-center">
-                        <p class="text-[3vw] sm:text-[2.8vw] md:text-[2.1vw] lg:text-[1.9vw] xl:text-[1.2vw] 2xl:text-[1vw]">Cross_Zero</p>
+                        <p class="text-[3vw] sm:text-[2.8vw] md:text-[2.1vw] lg:text-[1.9vw] xl:text-[1.2vw] 2xl:text-[1vw]">Tic-tac-toe</p>
                     </div>
                 </div>
             </div>
