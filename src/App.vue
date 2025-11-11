@@ -10,7 +10,7 @@
             <Python v-show="python" @closePython="openNavigation"/>
             <Others v-show="others" @closeOthers="openNavigation"/>
             <MyApplications v-show="myApplications" @closeMyApplications="openNavigation"/>
-            <Download v-show="download" @closeDownload="openNavigation"/>
+            <Download v-show="download" :application="application" @closeDownload="openNavigation"/>
             <MySkills v-show="mySkills" @closeMySkills="openNavigation"/>
         </div>
     </div>
@@ -41,6 +41,7 @@
     const myApplications = ref(false);
     const download = ref(false);
     const mySkills = ref(false);
+    const application = ref('');
 
     const openNavigation = (txt) => {
         if(txt === 'navigation') {
@@ -120,7 +121,11 @@
         } else if(txt === 'closeMyApplications') {
             myApplications.value = false;
             developer.value = true;
-        } else if(txt === 'download') {
+        } else if(txt === 'calculator') {
+            application.value = 'calculator';
+            download.value = true;
+        } else if(txt === 'cross_zero') {
+            application.value = 'cross_zero';
             download.value = true;
         } else if(txt === 'closeDownload') {
             download.value = false;
