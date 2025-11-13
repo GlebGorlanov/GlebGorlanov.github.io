@@ -53,7 +53,7 @@
                     <span class="text-[4vw] sm:text-[3.8vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.5vw] 2xl:text-[1.3vw]">Linux</span><img src="../assets/applications/zagruzka.png" class="w-[15%] ml-[10%] sm:w-[14.5%] sm:ml-[9%] md:w-[14%] md:ml-[6%] lg:w-[13%] lg:ml-[5%] xl:w-[12%] xl:ml-[5%] 2xl:w-[12%] 2xl:ml-[5%]">
                 </a>
 
-                <div class="filter backdrop-blur-2xl" v-show="os !== 'Linux'"></div>
+                <div class="filter backdrop-blur-2xl" v-show="os !== 'Windows'"></div>
             </div>
 
             <div class="macos flex items-center justify-center w-1/3 h-full rounded-br-[4vw] sm:rounded-br-[3.5vw] md:rounded-br-[3vw] lg:rounded-br-[2.3vw] xl:rounded-br-[1.5vw] 2xl:rounded-br-[1.3vw]">
