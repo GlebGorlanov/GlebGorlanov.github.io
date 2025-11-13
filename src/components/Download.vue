@@ -49,7 +49,7 @@
                     <span class="text-[4vw] sm:text-[3.8vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.5vw] 2xl:text-[1.3vw]">Linux</span><img src="../assets/applications/zagruzka.png" class="w-[15%] ml-[10%] sm:w-[14.5%] sm:ml-[9%] md:w-[14%] md:ml-[6%] lg:w-[13%] lg:ml-[5%] xl:w-[12%] xl:ml-[5%] 2xl:w-[12%] 2xl:ml-[5%]">
                 </a>
 
-                <a v-else-if="application === 'cross_zero'" href="#" class="flex items-center justify-center w-full h-full">
+                <a v-else-if="application === 'cross_zero'" href="https://github.com/GlebGorlanov/Applications/releases/download/L1.0.0/Tic-Tac-Toe.Setup.1.0.0_amd64.deb" class="flex items-center justify-center w-full h-full">
                     <span class="text-[4vw] sm:text-[3.8vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.5vw] 2xl:text-[1.3vw]">Linux</span><img src="../assets/applications/zagruzka.png" class="w-[15%] ml-[10%] sm:w-[14.5%] sm:ml-[9%] md:w-[14%] md:ml-[6%] lg:w-[13%] lg:ml-[5%] xl:w-[12%] xl:ml-[5%] 2xl:w-[12%] 2xl:ml-[5%]">
                 </a>
 
@@ -61,7 +61,7 @@
                     <span class="text-[4vw] sm:text-[3.8vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.5vw] 2xl:text-[1.3vw]">MacOS</span><img src="../assets/applications/zagruzka.png" class="w-[15%] ml-[10%] sm:w-[14.5%] sm:ml-[9%] md:w-[14%] md:ml-[6%] lg:w-[13%] lg:ml-[5%] xl:w-[12%] xl:ml-[5%] 2xl:w-[12%] 2xl:ml-[5%]">
                 </a>
 
-                <a v-else-if="application === 'cross_zero'" href="#" class="flex items-center justify-center w-full h-full">
+                <a v-else-if="application === 'cross_zero'" href="https://github.com/GlebGorlanov/Applications/releases/download/M1.0.0/Tic-Tac-Toe.Setup.1.0.0_amd64.dmg" class="flex items-center justify-center w-full h-full">
                     <span class="text-[4vw] sm:text-[3.8vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.5vw] 2xl:text-[1.3vw]">MacOS</span><img src="../assets/applications/zagruzka.png" class="w-[15%] ml-[10%] sm:w-[14.5%] sm:ml-[9%] md:w-[14%] md:ml-[6%] lg:w-[13%] lg:ml-[5%] xl:w-[12%] xl:ml-[5%] 2xl:w-[12%] 2xl:ml-[5%]">
                 </a>
 
