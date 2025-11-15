@@ -150,6 +150,10 @@
         height: 100%;
 
         overflow-y: auto;
+
+        /* Firefox scrollbar styles */
+        scrollbar-width: thin; /* "auto" или "thin" */
+        scrollbar-color: rgba(192, 192, 192, 0.6) transparent; /* thumb и track */
     }
 
     .scrollWindow::-webkit-scrollbar {
