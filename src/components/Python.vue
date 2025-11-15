@@ -61,7 +61,7 @@
 
         background-color: rgba(0, 0, 0, 0.4);
         outline: 3px solid rgba(245, 245, 245, 0.3);
-        border-bottom-right-radius: 10px;
+        /*border-bottom-right-radius: 10px;*/
     }
 
     .head {
@@ -102,6 +102,10 @@
         height: 88%;
 
         overflow-x: auto;
+
+        /* Firefox scrollbar styles */
+        scrollbar-width: thin; /* "auto" или "thin" */
+        scrollbar-color: rgba(192, 192, 192, 0.6) transparent; /* thumb и track */
     }
 
     .certificates::-webkit-scrollbar {
