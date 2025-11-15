@@ -134,33 +134,6 @@
         color: whitesmoke;
     }
 
-    /*.application {
-        display: flex;
-        flex-direction: column;
-
-        width: 100%;
-        height: 100%;
-
-        overflow-y: auto;
-    }
-
-    .application::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    .application::-webkit-scrollbar-track {
-        border-radius: 0px;
-    }
-
-    .application::-webkit-scrollbar-thumb {
-        background-color: rgba(192, 192, 192, 0.6);
-        border-radius: 0px;
-    }
-
-    .application::-webkit-scrollbar-thumb:hover {
-        background-color: rgba(245, 245, 245, 0.7);
-    }*/
-
     .application {
         display: flex;
         flex-direction: column;

@@ -101,6 +101,10 @@
         height: 88%;
 
         overflow-x: auto;
+
+        /* Firefox scrollbar styles */
+        scrollbar-width: thin; /* "auto" или "thin" */
+        scrollbar-color: rgba(192, 192, 192, 0.6) transparent; /* thumb и track */
     }
 
     .certificates::-webkit-scrollbar {
