@@ -60,7 +60,7 @@
 
         background-color: rgba(0, 0, 0, 0.4);
         outline: 3px solid rgba(245, 245, 245, 0.3);
-        /*border-bottom-right-radius: 10px;*/
+        border-bottom-right-radius: 5px;
     }
 
     .head {
