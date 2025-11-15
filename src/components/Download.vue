@@ -134,7 +134,7 @@
         color: whitesmoke;
     }
 
-    .application {
+    /*.application {
         display: flex;
         flex-direction: column;
 
@@ -159,7 +159,40 @@
 
     .application::-webkit-scrollbar-thumb:hover {
         background-color: rgba(245, 245, 245, 0.7);
+    }*/
+
+    .application {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 100%;
+
+        overflow-y: auto;
+
+        /* Firefox scrollbar styles */
+        scrollbar-width: thin; /* "auto" или "thin" */
+        scrollbar-color: rgba(192, 192, 192, 0.6) transparent; /* thumb и track */
     }
+
+    /* WebKit-based browsers (Chrome, Edge, Safari) scrollbar styles */
+    .application::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .application::-webkit-scrollbar-track {
+        border-radius: 0px;
+    }
+
+    .application::-webkit-scrollbar-thumb {
+        background-color: rgba(192, 192, 192, 0.6);
+        border-radius: 0px;
+    }
+
+    .application::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(245, 245, 245, 0.7);
+    }
+
 
     .application > img {
         margin: 6px 0;
