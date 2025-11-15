@@ -106,7 +106,7 @@
         background-color: rgba(0, 0, 0, 0.3);
 
         outline: 3px solid rgba(245, 245, 245, 0.3);
-        border-bottom-right-radius: 8px;
+        border-bottom-right-radius: 5px;
     }
 
     .head {
